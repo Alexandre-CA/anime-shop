@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Home</title>
+        <link rel="stylesheet" href="CSS/homestyle.css">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <script async src="homeScript.js"></script>
+        <script async src="verify.js"></script>
+    </head>
+<body>
+        <header>
+                <img src="../Source/logo.png" class="LogoAS" alt="LogoAnimeStore">
+                <nav class="navigation">
+                    <a href="home.html">Produtos</a>
+                    <a href="sobre.html">Sobre</a>
+                    <a href="carrinho.html">Carrinho</a>
+                    <a href="contato.html">Contato</a> 
+                    <!-- <button class="btnLogin-popup" onclick="redirecionar()" > Login</button>   -->
+                </nav>
+                <!-- <div class="searchbox">
+                    <input type="text" class = "search-txt" placeholder="Pesquisar">
+                    <a href="#" class="search-btn">
+                        <img5 src="C:\BackupDoHd\.vscode\java\src\AnimeStore\Source\lupa.svg" alt="lupa" height="20" width="20">
+                    </a>
+                </div> -->
+        </header>
+        <!-- Produtos -->
+        <section class="product">
+            <div class="scroller">
+                <div class="product-container" id="productContainer">
+                    <!-- <div class="product-card">
+                        <div class="product-image">
+                            <span class="discount-tag">50% off</span>
+                            <img src="https://http2.mlstatic.com/D_NQ_NP_986308-MLB48898004470_012022-O.jpg" alt="" class="product-thumb">
+                            <button class="card-btn">Adicionar no carrinho</button>
+                        </div>
+                        <div class="product-info">
+                            <h2 class="product-brand">Manga konosuba</h2>
+                            <p class="product-short-description"> 1 edição 50 folhas capa mole</p>
+                            <span class="price">20R$</span>
+                            <span class="actual-price">40R$</span>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <span class="discount-tag">50% off</span>
+                            <img src="https://static.madinfinite.com/images_itens/big/5/high-school-dxd-ova-cover-004756.webp" alt="" class="product-thumb">
+                            <button class="card-btn">Adicionar ao Carrinho</button>
+                        </div>
+                        <div class="product-info">
+                            <h2 class="product-brand">brand</h2>
+                            <p class="product-short-description">description</p>
+                            <span class="price">20R$</span>
+                            <span class="actual-price">40R$</span>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <span class="discount-tag">50% off</span>
+                            <img src="C:\Users\job_a\Downloads\20160810familia-sacana-desenho.jpg" alt="" class="product-thumb">
+                            <button class="card-btn">Adicionar ao carrinho</button>
+                        </div>
+                        <div class="product-info">
+                            <h2 class="product-brand">brand</h2>
+                            <p class="product-short-description">description</p>
+                            <span class="price">20R$</span>
+                            <span class="actual-price">40R$</span>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <span class="discount-tag">50% off</span>
+                            <img src="https://a-static.mlcdn.com.br/800x560/goku-super-saiyan-3-articulado-action-figure-dragon-ball-z-actioncollection/actionkrypton/15965889847/ecd63ade09c5b965cc24b12461343ae4.jpeg" alt="" class="product-thumb">
+                            <button class="card-btn">Adicionar ao carrinho</button>
+                        </div>
+                        <div class="product-info">
+                            <h2 class="product-brand">brand</h2>
+                            <p class="product-short-description">description</p>
+                            <span class="price">20R$</span>
+                            <span class="actual-price">40R$</span>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <span class="discount-tag">50% off</span>
+                            <img src="https://fr.web.img2.acsta.net/pictures/20/09/24/16/15/4176088.jpg" alt="" class="product-thumb">
+                            <button class="card-btn">Adicionar ao carrinho</button>
+                        </div>
+                        <div class="product-info">
+                            <h2 class="product-brand">brand</h2>
+                            <p class="product-short-description">description</p>
+                            <span class="price">20R$</span>
+                            <span class="actual-price">40R$</span>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <span class="discount-tag">50% off</span>
+                            <img src="https://m.media-amazon.com/images/I/51f1opiPffL._AC_UF1000,1000_QL80_.jpg" alt="" class="product-thumb">
+                            <button class="card-btn">Adicionar ao carrinho</button>
+                        </div>
+                        <div class="product-info">
+                            <h2 class="product-brand">brand</h2>
+                            <p class="product-short-description">description</p>
+                            <span class="price">20R$</span>
+                            <span class="actual-price">40R$</span>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <span class="discount-tag">50% off</span>
+                            <img src="https://m.media-amazon.com/images/I/71U7DuusOdL._AC_UF1000,1000_QL80_.jpg" alt="" class="product-thumb">
+                            <button class="card-btn">Adicionar ao carrinho</button>
+                        </div>
+                        <div class="product-info">
+                            <h2 class="product-brand">brand</h2>
+                            <p class="product-short-description">description</p>
+                            <span class="price">20R$</span>
+                            <span class="actual-price">40R$</span>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <span class="discount-tag">50% off</span>
+                            <img src="https://m.media-amazon.com/images/M/MV5BNjM4NmI4MDQtNjdlMS00YTBmLWFmZDgtYzdmYmQ2ZjVjYmZiXkEyXkFqcGdeQXVyMjc0MjUzMzU@._V1_FMjpg_UX1000_.jpg" alt="" class="product-thumb">
+                            <button class="card-btn">Adicionar ao Carrinho</button>
+                        </div>
+                        <div class="product-info">
+                            <h2 class="product-brand">brand</h2>
+                            <p class="product-short-description">description</p>
+                            <span class="price">20R$</span>
+                            <span class="actual-price">40R$</span>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <span class="discount-tag">50% off</span>
+                            <img src="https://m.media-amazon.com/images/I/613fTbY8VDL._AC_UF894,1000_QL80_.jpg" alt="" class="product-thumb">
+                            <button class="card-btn">Adicionar ao carrinho</button>
+                        </div>
+                        <div class="product-info">
+                            <h2 class="product-brand">brand</h2>
+                            <p class="product-short-description">description</p>
+                            <span class="price">20R$</span>
+                            <span class="actual-price">40R$</span>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <span class="discount-tag">50% off</span>
+                            <img src="https://1.bp.blogspot.com/-fes-WusI-i8/YRxa0l32dVI/AAAAAAAATAY/-XY4dy43Dg4D8eFg1AKgTdPTAE5yPaa5wCLcBGAsYHQ/s500/Arco%2B01.png" alt="" class="product-thumb">
+                            <button class="card-btn">Adicionar ao carrinho</button>
+                        </div>
+                        <div class="product-info">
+                            <h2 class="product-brand">brand</h2>
+                            <p class="product-short-description">description</p>
+                            <span class="price">20R$</span>
+                            <span class="actual-price">40R$</span>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <span class="discount-tag">50% off</span>
+                            <img src="https://m.media-amazon.com/images/M/MV5BMjIzOTkwNTctZGYyNy00MDAxLWFkZjItN2ZiMjA4YzA3MTRhXkEyXkFqcGdeQXVyMTM0NDkxNDIz._V1_.jpg" alt="" class="product-thumb">
+                            <button class="card-btn">Adicionar ao carrinho</button>
+                        </div>
+                        <div class="product-info">
+                            <h2 class="product-brand">brand</h2>
+                            <p class="product-short-description">description</p>
+                            <span class="price">20R$</span>
+                            <span class="actual-price">40R$</span>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <span class="discount-tag">50% off</span>
+                            <img src="https://kbimages1-a.akamaihd.net/453665f3-f9c9-4775-834a-ec3179e86c80/353/569/90/False/prison-school-01.jpg" alt="" class="product-thumb">
+                            <button class="card-btn">Adicionar ao carrinho</button>
+                        </div>
+                        <div class="product-info">
+                            <h2 class="product-brand">brand</h2>
+                            <p class="product-short-description">description</p>
+                            <span class="price">20R$</span>
+                            <span class="actual-price">40R$</span>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+            
+        </section>
+        
+</body>
+<script>
+    function redirecionar() {
+      window.location.href = "file:///C:/BackupDoHd/.vscode/java/src/AnimeStore/Html_CSS/index.html";
+    }
+  </script>
+                
+</html>

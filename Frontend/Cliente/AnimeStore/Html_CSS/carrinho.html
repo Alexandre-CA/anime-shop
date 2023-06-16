@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>carrinho</title>
+    <link rel="stylesheet" href="CSS/carrinho.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <script async src="carrinho.js"></script>
+    <script async src="verify.js"></script>
+
+</head>
+<body>
+    <header>
+        <img src="../Source/logo.png" class="LogoAS" alt="LogoAnimeStore">
+        <nav class="navigation">
+            <a href="home.html">Produtos</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="carrinho.html">Carrinho</a>
+            <a href="contato.html">Contato</a> 
+            <!-- <button class="btnLogin-popup" onclick="redirecionar()" > Login</button>   -->
+        </nav>
+    </header>
+    <section class="container-normal-section">
+        <h2 class="section-title">Carrinho</h2>
+        
+        <table class="cart-table">
+            <thead>
+                <tr>
+                    <th class="table-head-item first-col">Item</th>
+                    <th class="table-head-item second-col">Preço</th>
+                    <th class="table-head-item third-col">Quantidade</th>
+                </tr>
+            </thead>
+            <tbody id="productBody">
+                <!-- <tr class="cart-product">
+                    <td class="product-identification">
+                        <img  class="cart-product-image" src="https://kbimages1-a.akamaihd.net/453665f3-f9c9-4775-834a-ec3179e86c80/353/569/90/False/prison-school-01.jpg" alt="">
+                        <strong class="cart-product-title">Brand</strong>
+                    </td>
+                    <td>
+                        <span class="cart-product-price">89,90R$</span>
+                    </td>
+                    <td>
+                        <input class="product-qtd-input" type="number" value="0"min="0">
+                        <button class="remove-product-button" type="button">remover</button>
+                    </td>
+                </tr>
+                <tr class="cart-product">
+                    <td class="product-identification">
+                        <img  class="cart-product-image" src="https://kbimages1-a.akamaihd.net/453665f3-f9c9-4775-834a-ec3179e86c80/353/569/90/False/prison-school-01.jpg" alt="">
+                        <strong class="cart-product-title">Brand</strong>
+                    </td>
+                    <td>
+                        <span class="cart-product-price">89,90R$</span>
+                    </td>
+                    <td>
+                        <input class="product-qtd-input" type="number" value="0"min="0">
+                        <button class="remove-product-button" type="button">remover</button>
+                    </td>
+                </tr> -->
+                
+            </tbody>
+        </table>
+        <div class="footer">
+            <tfoot>
+                <strong class="total-price">Total</strong>
+                <span class="Sum-price"></span>
+                <button class="Final-button" onclick="finish()">Finalizar Compra</button>
+            </tfoot>
+        </div>
+    </section>
+   
+    
+</body>
+<script>
+    function redirecionar() {
+      window.location.href = "file:///C:/BackupDoHd/.vscode/java/src/AnimeStore/Html_CSS/index.html";
+    }
+  </script>
+</html>

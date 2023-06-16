@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap%27%29%3B');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('https://images2.alphacoders.com/116/1163369.jpg')no-repeat;
+    background-size: cover;
+}
+header{
+    position: fixed;
+    top:-20px;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+.logo{
+   user-select: none; 
+}
+.LogoAS{
+    height: 6rem;
+  }
+.navigation a {
+position: relative;
+font-size: 1.1em;
+color: #fff;
+text-decoration: none;
+font-weight: 500;
+margin-left: 40px;
+}
+.navigation a::after{
+   content: '';
+   position: absolute;
+   left: 0;
+   bottom: -6px;
+   width: 100%;
+   height: 3px;
+   background: #fff;
+   border-radius: 5px;
+   transform-origin: right;
+   transform: scaleX(0);
+   transition: transform .5s;
+}
+.navigation a:hover::after{
+    transform: scaleY(1);
+}
+.navigation .btnLogin-popup{
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: .5s; 
+}
+.navigation .btnLogin-popup:hover{
+    background: #fff;
+    color: #162938;
+}
+.comentario{
+    color: #fff;
+
+}
+.warning{
+    top: 20px;
+    color: red;
+    text-shadow: 1.5px 1.5px 1.5px black;
+    font-family: 'Open Sans';
+    
+}
+.sobre{
+    font-family: 'Open Sans';
+    text-shadow: 1.5px 1.5px 1.5px black;
+}
+.titulo{
+    text-shadow: 1.5px 1.5px 1.5px black;
+    font-family: 'Open Sans';
+}
+.comentario{
+    padding-top: 30px;
+    max-width: 50vw;
+    max-height: 600px;
+    overflow: hidden;
+    overflow: scroll;
+    scroll-behavior: smooth;
+}
+.comentario::-webkit-scrollbar{
+    width: 0px;
+    
+}
+@media(max-width :1500px) {
+    .comentario{
+        padding-top: 100px;
+        max-width: 50vw;
+        max-height: 60vh;
+        overflow: hidden;
+        overflow: scroll;
+        scroll-behavior: smooth;
+    }
+}

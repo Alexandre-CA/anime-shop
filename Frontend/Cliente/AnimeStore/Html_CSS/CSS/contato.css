@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap%27%29%3B');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('https://i.pinimg.com/originals/b7/08/33/b708339eb203c1dc7b6ea7a95ae5bb3c.jpg')no-repeat;
+    background-size: cover;
+}
+header{
+    position: fixed;
+    top: -20px;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+.logo{
+   user-select: none; 
+}
+.LogoAS{
+    height: 6rem;
+  }
+.navigation a {
+position: relative;
+font-size: 1.1em;
+color: #fff;
+text-decoration: none;
+font-weight: 500;
+margin-left: 40px;
+}
+.navigation a::after{
+   content: '';
+   position: absolute;
+   left: 0;
+   bottom: -6px;
+   width: 100%;
+   height: 3px;
+   background: #fff;
+   border-radius: 5px;
+   transform-origin: right;
+   transform: scaleX(0);
+   transition: transform .5s;
+}
+.navigation a:hover::after{
+    transform: scaleY(1);
+}
+.navigation .btnLogin-popup{
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: .5s; 
+}
+.navigation .btnLogin-popup:hover{
+    background: #fff;
+    color: #162938;
+}
+.imagelogo{
+    position: absolute;
+    top:20;
+    left: 50%;
+    transform: translate(-50%);
+}
+body{
+    margin: 0;
+    height: 100vh;
+    width: 100vh;
+}
+.contato{
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+    padding-top: 10px;
+    backdrop-filter: blur(4px);
+    width: 40vw !important;
+    height: 15rem !important;
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, .5);
+}
+.text-num{
+    padding-top: 7px;
+    position: relative;
+    font-size: 1.1em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+.Email{
+    padding-top: 7px;
+    position: relative;
+    font-size: 1.1em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+.Address{
+    padding-top: 7px;
+    position: relative;
+    font-size: 1.1em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+.Street{
+    padding-top: 7px;
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transform: 5s;
+}
+.link{
+    padding-top: 7px;
+    color: #fff;
+    padding-left: 10px;
+    transition: .5s; 
+}
+.link:hover{
+    color: crimson;
+}
+/* .itens{
+   padding-top: 50%;
+} */
+@media(max-width :1500px) {
+    .contato{
+        padding-right: 2px;
+        padding-top: 5px;
+        backdrop-filter: blur(4px);
+        width: 50%;
+        height: 50%;
+        border-radius: 20px;
+        border: 2px solid rgba(255, 255, 255, .5);
+    }
+    .text-num{
+        padding-top: 1px;
+        position: relative;
+        font-size: 1.1em;
+        color: #fff;
+        text-decoration: none;
+        font-weight: 500;
+        margin-left: 40px;
+    }
+    .Email{
+        padding-top: 1px;
+        position: relative;
+        font-size: 1.1em;
+        color: #fff;
+        text-decoration: none;
+        font-weight: 500;
+        margin-left: 40px;
+    }
+    .Address{
+        padding-top: 1px;
+        position: relative;
+        font-size: 1.1em;
+        color: #fff;
+        text-decoration: none;
+        font-weight: 500;
+        margin-left: 40px;
+    }
+    .Street{
+        padding-top: 1px;
+        position: relative;
+        color: #fff;
+        text-decoration: none;
+        font-weight: 500;
+        transform: 5s;
+    }
+    .link{
+        padding-top: 1px;
+        color: #fff;
+        padding-left: 10px;
+        transition: .5s; 
+    }
+    .link:hover{
+        color: crimson;
+    }
+    /* .itens{
+       padding-top: 50%;
+    } */
+}
