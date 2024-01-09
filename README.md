@@ -2,13 +2,13 @@
 
 **Descrição:**
 
-Este projeto é uma loja virtual de animes, desenvolvida como trabalho de conclusão de curso do curso de Analise e Desenvolvimento de Sistema da PUCGO.
+Este projeto é uma loja virtual de animes, desenvolvido como trabalho em dupla de conclusão da materia  do curso de Analise e Desenvolvimento de Sistema da PUCGO orinetado pelo professor Fernando Abadia.
 
 **Tecnologias utilizadas:**
 
-* Front-end:  CSS, HTML, Javascript, Angular 15
-* Back-end: Java, Spring Boot
-* Banco de dados: MySql
+* Front-end:  CSS, HTML, Javascript, Angular 15.(Responsavel Marcos Silva GITHUB M4rk-001 )
+* Back-end: Java, Spring Boot(Responsavel Alexandre GITHUB Alexandre-CA)
+* Banco de dados: MySql(Responsavel Alexandre GITHUB Alexandre-CA)
 
 **Funcionalidades:**
 
